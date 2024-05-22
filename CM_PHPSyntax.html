@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>CM_Home</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-image text-white"
+style="
+  background-image: url('./images/CM_bg.png');
+">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-primary mask-custom shadow-0">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html">
+        <img src="./images/CM_logo.png" width="50" height="50" alt="">
+      </a>
+      <a class="navbar-brand fw-bold text-light" href="Home.html">Codesmaxxing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterTutorial.html">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterArticle.html">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light active" href="About.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <main>
+        <div class="container">
+            <h1 data-aos="zoom-in" data-aos-delay="100" class="display-3 text-start">PHP Syntax</h1>
+            <div class="d-flex justify-content-between">
+                <a data-aos="fade-left" data-aos-delay="100" class="btn btn-success" href="CM_PHPIntroduction.html" role="button">Previous</a>
+                <div style="width: 50px;"></div>
+                <a data-aos="fade-right" data-aos-delay="100" class="btn btn-success" href="CM_MasterTutorial.html" role="button">Back</a>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mt-3 mb-3">
+                <p class="lh-1">A PHP script is executed on the server, and the plain HTML result is sent back to the browser.</p>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <h3>Basic PHP Syntax</h3>
+                <p class="lh-1">A PHP script can be placed anywhere in the document.</p>
+                <p class="lh-1">A PHP script starts with <?php and ends with ?>:</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class="p-3 mb-3 card rounded text-white">
+                    <div data-aos="flip-up" data-aos-delay="100" data-aos="fade-right" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">?php</p>
+                            <p class="lh-1">// PHP code goes here</p>
+                            <p class="lh-1">?></p>
+                          </div>
+                     </div>
+                   </div>
+                </div>
+                <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                    <p class="lh-1">The default file extension for PHP files is ".php".</p>
+                    <p class="lh-1">A PHP file normally contains HTML tags, and some PHP scripting code.</p>
+                    <p class="lh-1">Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:</p>
+                </div>
+                <div class="col">
+                    <div data-aos="flip-up" data-aos-delay="100" class="p-3 mb-3 card rounded text-white">
+                      <h5 data-aos="fade-right" data-aos-delay="100" >Example</h3>
+                        <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                              <div>
+                                <p class="lh-1">&lt;!DOCTYPE html></p>
+                                <p class="lh-1">&lt;html></p>
+                                <p class="lh-1">&lt;body></p>
+                                <p class="lh-1">&lt;h1>My first PHP page&lt;/h1></p>
+                                <p class="lh-1">&lt;?php</p>
+                                <p class="lh-1">echo "Hello World!";</p>
+                                <p class="lh-1">&lt;?></p>
+                                <p class="lh-1">&lt;/body></p>
+                                <p class="lh-1">&lt;/html></p>
+                              </div>
+                         </div>
+                       </div>
+                    </div>
+                    <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                        <h3>PHP Case Sensitivity</h3>
+                        <p class="lh-1">In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are not case-sensitive.</p>
+                        <p class="lh-1">In the example below, all three echo statements below are equal and legal:</p>
+                    </div>
+                    <div class="col">
+                    <div data-aos="flip-up" data-aos-delay="100" class="p-3 mb-3 card rounded text-white">
+                      <h5 data-aos="fade-right" data-aos-delay="100" >Example</h3>
+                        <p data-aos="fade-right" data-aos-delay="100" class="lh-1">ECHO is the same as echo:</p>
+                        <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                              <div>
+                                <p class="lh-1">&lt;!DOCTYPE html></p>
+                                <p class="lh-1">&lt;html></p>
+                                <p class="lh-1">&lt;body></p>
+                                <p class="lh-1">&lt;?php&lt;/h1></p>
+                                <p class="lh-1">&lt;ECHO "Hello World!<br>";</p>
+                                <p class="lh-1">echo "Hello World!&lt;br>";</p>
+                                <p class="lh-1">EcHo "Hello World!&lt;br>";</p>
+                                <p class="lh-1">&lt;?></p>
+                                <p class="lh-1">&lt;/body></p>
+                                <p class="lh-1">&lt;/html></p>
+                              </div>
+                         </div>
+                       </div>
+                    </div>
+                    <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                        <p class="lh-1">Look at the example below; only the first statement will display the value of the $color variable! This is because $color, $COLOR, and $coLOR are treated as three different variables:</p>
+                    </div>
+                    <div class="col">
+                        <div data-aos="flip-up" data-aos-delay="100" class="p-3 mb-3 card rounded text-white">
+                          <h5 data-aos="fade-right" data-aos-delay="100" >Example</h3>
+                            <p data-aos="fade-right" data-aos-delay="100" class="lh-1">$COLOR is not same as $color:</p>
+                            <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                                  <div>
+                                    <p class="lh-1">&lt;!DOCTYPE html></p>
+                                    <p class="lh-1">&lt;html></p>
+                                    <p class="lh-1">&lt;body></p>
+                                    <p class="lh-1">&lt;?php&lt;/h1></p>
+                                    <p class="lh-1">&lt;$color = "red";</p>
+                                    <p class="lh-1">echo "My car is " . $color . "<br>";</p>
+                                    <p class="lh-1">echo "My house is " . $COLOR . "<br>";</p>
+                                    <p class="lh-1">&lt;?></p>
+                                    <p class="lh-1">echo "My boat is " . $coLOR . "<br>";</p>
+                                    <p class="lh-1">?></p>
+                                    <p class="lh-1">&lt;/body></p>
+                                    <p class="lh-1">&lt;/html></p>
+                                  </div>
+                             </div>
+                           </div>
+                        </div>
+    </main>
+    
+    <footer class="text-center text-lg-start mask-custom shadow-0">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-2 mx-auto mb-4">
+            <img src="./images/CM_logo.png" alt="Logo" class="img-fluid">
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>&copy; 2024 Codesmaxxing</p>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <a href="CM_PrivacyPolicy.html" class="active">Privacy Policy</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Philippines, Alaminos City, Pangasinan.</p>
+            <a href="https://www.google.com/maps/place/Alaminos,+Pangasinan/@16.1440845,119.9898251,12z/data=!3m1!4b1!4m6!3m5!1s0x3393dccf6d009e91:0xd49a89904cd7374e!8m2!3d16.1505291!4d119.9856157!16zL20vMDZqejQy?entry=ttu">See on map!</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Contact Us:</p>
+            <p>Email: codesmaxxing@gmail.com</p>
+            <p>Phone: (+63) 0969 526 3613</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    
+
+</body>
+
+</html>

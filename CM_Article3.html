@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1.0">
+	<title>CM_Home</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-image text-white"
+style="
+  background-image: url('./images/CM_bg.png');
+">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-primary mask-custom shadow-0">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html">
+        <img src="./images/CM_logo.png" width="50" height="50" alt="">
+      </a>
+      <a class="navbar-brand fw-bold text-light" href="Home.html">Codesmaxxing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterTutorial.html">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterArticle.html">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light active" href="About.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <main>
+        <div class="container px-4 py-2">
+            <div class="row">
+              <div class="col-lg-8">
+                <article>
+                  <header>
+                    <h1 data-aos="fade-right" data-aos-delay="100" class="display-3 lh-1">What Is Linear Programming? Meaning, Methods, and Examples</h1>
+                    <h3 data-aos="fade-right" data-aos-delay="100" class="lead">Linear programming helps determine how to arrive at the most optimized situation given a set of resource constraints.</h3>
+                    <div class="container">
+                      <div class="row text-start">
+                        <div class="col-md-2">
+                            <img data-aos="fade-in" data-aos-delay="100" class="img-fluid" src="./images/steven.webp" height="100" width="100">
+                        </div>
+                        <div data-aos="fade-right" data-aos-delay="100" class="col-md-6 text-start">
+                          <p>Written by Steven Vaughan-Nichols, Senior Contributing Editor</p>
+                          <p>May 8, 2024 at 12:44 p.m. PT</p>
+                        </div>
+                    </div>
+                  </div>
+                  </header>
+                  <div data-aos="fade-right" data-aos-delay="100" class="container">
+                    <p class="m">Linear programming is defined as a technique in algebra that uses linear equations to figure out how to arrive at the optimal situation (maximum or minimum) as an answer to a mathematical problem, assuming the finiteness of resources and the quantifiable nature of the end optimization goal. This article explains how linear programming works with examples.</p>
+                    <img src="" class=" img-fluid">
+                    <h1 class="display-3 lh-1">What Is Linear Programming?</h1>
+                    <p>Linear programming is a technique in algebra that uses linear equations to determine how to arrive at the optimal situation (maximum or minimum) as an answer to a mathematical problem, assuming the finiteness of resources and the quantifiable nature of the end optimization goal. </p>
+                    <p>Linear programming (LP) uses many linear inequalities pertaining to a given scenario to determine the “optimal” value one can obtain under those constraints. A classic example would be calculating the “optimal” production levels to maximize profits, given the restrictions of supplies and personnel.</p>
+                    <p>In the “real world,” linear programming is an essential subfield of mathematics known as optimization methods. This area of research (or at least its applicable findings) is used in resource allocation and management. These “real-world” systems may have dozens or even hundreds of variables. In algebra, however, you will only see the basic (and graphable) linear example with two variables.</p>
+                    <p>Graphing the inequalities (called “constraints”) to construct a walled-off zone on the x,y plane is the typical method for solving linear programming problems (known as “feasibility region”). Then, you determine the dimensions of the extremities of this feasible zone (i.e., the intersection locations of the different pairs of lines) and evaluate these vertices in the equation (termed “optimization equation”) in which you’re attempting to get the maximum or minimum value.</p>
+                    <p>Linear programming (LP) is among the most straightforward optimization techniques. It simplifies specific, complicated linear programming and optimization issues to help you reach a solution. Data analysts will always encounter applications and challenges requiring linear programming solutions.</p>
+                    <h1 class="mb-4 display-3 lh-1">Linear programming formula</h1>
+                    <p>A linear programming issue includes choice parameters, a nonlinear objective, constraints, and nonnegative limitations. The outcome of the LP model is determined by the choice variables x and y, which also reflect the ultimate answer.</p>
+                    <p>Z is the function that must be optimized (maximized or minimized) to arrive at an answer. The constrictions are the limits placed on the variables to limit their values. According to the non-negative limitations, the variables must always possess a non-negative value.</p>
+                    <p>The linear programming formula may be regarded as follows:</p>
+                    <ul class="list-group m-1">
+                      <li class="list-group-item text-white">The function of the formula: ax + by = Z</li>
+                      <li class="list-group-item text-white">The formula’s operating limitations: cx + dy ≤ e and fx + gy ≤ h</li>
+                      <li class="list-group-item text-white">Other, non-negative restrictions: x ≥ 0, y ≥ 0</li>
+                    </ul>
+                    <p>You need to know a few terms to understand the meaning of linear programming. First come the decision variables. These elements fight for limited resources, including products, services, etc. They are referred to as decision variables if they are connected with a linear connection capable of determining the most optimal option.</p>
+                    <p>The next component would be the objective function. The challenge must have had a quantitatively measurable aim, such as maximizing profit, reducing costs, etc. These constraints also apply to the available resources, such as limited equipment, people, materials, etc. Some constraints are observably existent but do not hamper the process of the studied issue; they are referred to as redundant constraints.</p>
+                    <p>A viable solution is the collection of all potential solutions that fulfill the constants in the format of variables. In addition, an optimum value is the best possible solution that effectively supports the problem’s aim.</p>
+                    <p>The most crucial step in addressing a linear programming issue is formulating it using the provided data. The following are the steps for solving linear programming problems:</p>
+                    <ul class="list-group m-1">
+                        <li class="list-group-item text-white">Determine the choice factors</li>
+                        <li class="list-group-item text-white">Develop the objective function </li>
+                        <li class="list-group-item text-white">Determine whether the function should be decreased or maximized</li>
+                        <li class="list-group-item text-white">Record the limitations</li>
+                        <li class="list-group-item text-white">Verify that decision variables are either larger than or equal to 0. (Non-negative inhibition)</li>
+                        <li class="list-group-item text-white">Utilize either the simplex or graphical method to resolve the linear programming issue</li>
+                    </ul>
+                  </div>
+              </div>
+              <div data-aos="fade-down" data-aos-delay="100" class="col-lg-4">
+                <aside>
+                  <h2>Related Articles</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="CM_Article4.html">How Can AI Platforms Adapt to Hybrid or Multi-Cloud Environments?</a></li>
+                    <li><a href="CM_Article5.html">Computer Programmer: Job Description, Key Skills, and Salary in 2023</a></li>
+                    <li><a href="CM_Article6.html">BASIC is born at Dartmouth University.</a></li>
+                  </ul>
+                </aside>
+              </div>
+            </div>
+          </div>
+    </main>
+    
+    <footer class="text-center text-lg-start mask-custom shadow-0">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-2 mx-auto mb-4">
+            <img src="./images/CM_logo.png" alt="Logo" class="img-fluid">
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>&copy; 2024 Codesmaxxing</p>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <a href="CM_PrivacyPolicy.html" class="active">Privacy Policy</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Philippines, Alaminos City, Pangasinan.</p>
+            <a href="https://www.google.com/maps/place/Alaminos,+Pangasinan/@16.1440845,119.9898251,12z/data=!3m1!4b1!4m6!3m5!1s0x3393dccf6d009e91:0xd49a89904cd7374e!8m2!3d16.1505291!4d119.9856157!16zL20vMDZqejQy?entry=ttu">See on map!</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Contact Us:</p>
+            <p>Email: codesmaxxing@gmail.com</p>
+            <p>Phone: (+63) 0969 526 3613</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    
+
+</body>
+
+</html>

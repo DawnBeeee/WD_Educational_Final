@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>CM_Home</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-image text-white"
+style="
+  background-image: url('./images/CM_bg.png');
+">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-primary mask-custom shadow-0">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html">
+        <img src="./images/CM_logo.png" width="50" height="50" alt="">
+      </a>
+      <a class="navbar-brand fw-bold text-light" href="Home.html">Codesmaxxing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterTutorial.html">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterArticle.html">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light active" href="About.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <main class="px-4 py-2">
+        <div class="container">
+            <h1 data-aos="zoom-in" data-aos-delay="100" class="display-3 text-start">HTML Basics</h1>
+            <div class="d-flex justify-content-between mb-3">
+                <a data-aos="fade-left" data-aos-delay="100" class="btn btn-success" href="CM_HTMLEditors.html" role="button">Previous</a>
+                <div style="width: 50px;"></div>
+                <a data-aos="fade-right" data-aos-delay="100" class="btn btn-success" href="CM_HTMLElements.html" role="button">Next</a>
+            </div>
+
+            <div class="container">
+                <h3 data-aos="zoom-in" data-aos-delay="100" class="display-5">HTML Documents</h3>   
+                <p data-aos="fade-right" data-aos-delay="100" class="lh-1">All HTML documents must start with a document type declaration: <span class="text-danger">&lt;!DOCTYPE html&gt;</span></p>
+                <p data-aos="fade-right" data-aos-delay="100" class="lh-1">The HTML document itself begins with <span class="text-danger">&lt;html&gt;</span> and ends with <span class="text-danger">&lt;/html&gt;</span></p>
+                <p data-aos="fade-right" data-aos-delay="100" class="lh-1">The visible part of the HTML document is between <span class="text-danger">&lt;body&gt;</span> and <span class="text-danger">&lt;/html&gt;</span></p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class="p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100" >Example:</h3>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-5 bg-white rounded text-dark">
+                          <div>
+                                <p class="lh-1"><span class="text-primary">&lt;!DOCTYPE html&gt;</span></p>
+                                <p class="lh-1"><span class="text-primary">&lt;html&gt;</span></p>
+                                <p class="lh-1"><span class="text-primary">&lt;head&gt;</span></p>
+                                <p class="lh-1"><span class="text-primary">&lt;h1&gt;</span><span class="text-danger">My first heading.</span><span class="text-primary">&lt;/h1&gt;</span></p>
+                                <p class="lh-1"><span class="text-primary">&lt;p&gt;</span><span class="text-danger">My first paragraph.</span><span class="text-primary">&lt;/p&gt;</span></p> 
+                                <p class="lh-1"><span class="text-primary">&lt;/body&gt;</span></p>
+                                <p class="lh-1"><span class="text-primary">&lt;/html&gt;</span></p>
+                          </div>
+                     </div>
+                    </div>
+                </div>
+                <div class="container mb-3">
+                    <h3 data-aos="fade-right" data-aos-delay="100" class="display-5">The &lt;!DOCTYPE&gt; Declaration</h3>
+                    <p data-aos="fade-right" data-aos-delay="100" class="lh-1">The <span class="text-danger">&lt;!DOCTYPE&gt;</span> declaration represents the document type, and helps browsers to display web pages correctly.</p>
+                    <p data-aos="fade-right" data-aos-delay="100" class="lh-1">It must only appear once, at the top of the page (before any HTML tags).</p>
+                    <p data-aos="fade-right" data-aos-delay="100" class="lh-1">The <span class="text-danger">&lt;!DOCTYPE&gt;</span> declaration is not case sensitive.</p>
+                    <p data-aos="fade-right" data-aos-delay="100" class="lh-1">The <span class="text-danger">&lt;!DOCTYPE&gt;</span> declaration for HTML5 is:</p>
+                </div>
+
+                <div class="col">
+                    <div data-aos="flip-up data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                      <h5 data-aos="zoom-in" data-aos-delay="100">Example:</h3>
+                        <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                              <div>
+                                <p class="lh-1"><span class="text-primary">&lt;</span> <span class="text-warning">!DOCTYPE </span><span class="text-danger">html</span> <span class="text-primary">&gt;</span> </p>
+                              </div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="container">
+                    <h3 data-aos="fade-right" data-aos-delay="100" class="display-5">HTML Headings</h3>
+                    <p data-aos="fade-right" data-aos-delay="100" class="lh-1">HTML headings are defined with the <span class="text-danger">&lt;h1&gt;</span> to <span class="text-danger">&lt;h6&gt;</span> tags.</p>
+                    <p data-aos="fade-right" data-aos-delay="100" class="lh-1"><span class="text-danger">&lt;h1&gt;</span> defines the most important heading. <span class="text-danger">&lt;h6&gt;</span> defines the least important heading: </p>              
+                </div>
+                <div class="col">
+                    <div data-aos="flip-up" data-aos-delay="100" class="card p-3 mb-3 rounded text-white">
+                      <h5 data-aos="fade-right" data-aos-delay="100" >Example:</h3>
+                        <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                              <div>
+                                <p class="lh-1"><span class="text-primary">&lt;</span> <span class="text-danger">h1</span> <span class="text-primary">&gt;</span>This is heading 1<p class="lh-1"><span class="text-primary">&lt;</span> <span class="text-danger">h1</span> <span class="text-primary">&gt;</span> </p>
+                                <p class="lh-1"><span class="text-primary">&lt;</span> <span class="text-danger">h2</span> <span class="text-primary">&gt;</span>This is heading 2<p class="lh-1"><span class="text-primary">&lt;</span> <span class="text-danger">h2</span> <span class="text-primary">&gt;</span> </p>
+                                <p class="lh-1"><span class="text-primary">&lt;</span> <span class="text-danger">h3</span> <span class="text-primary">&gt;</span>This is heading 3<p class="lh-1"><span class="text-primary">&lt;</span> <span class="text-danger">h3</span> <span class="text-primary">&gt;</span> </p> 
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h3 data-aos="fade-right" data-aos-delay="100" class="display-5">HTML Paragraphs</h3>
+                    <p data-aos="fade-right" data-aos-delay="100" class="lh-1">HTML paragraphs are defined with the &lt;p&gt; tag:</p>
+                </div>
+                <div class="col">
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                      <h5 data-aos="fade-right" data-aos-delay="100" >Example:</h3>
+                        <div data-aos="flip-up" data-aos-delay="100" class="p-3 bg-white rounded text-dark">
+                              <div>
+                                <p class="lh-1">&lt;p>This is a paragraph.&lt;p></p>
+                                <p class="lh-1">&lt;p>This is another paragraph.&lt;/p></p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h3 data-aos="fade-right" data-aos-delay="100" class="display-5">HTML Links</h3>
+                    <p data-aos="fade-right" data-aos-delay="100" class="lh-1">HTML links are defined with the <a> tag: </p>
+                </div>
+                <div class="col">
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded">
+                      <h5 data-aos="fade-right" data-aos-delay="100">Example:</h3>
+                        <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded">
+                              <div>
+                                <a class="text-dark" href="https://www.w3schools.com">This is a link</a>
+                              </div>
+                        </div>
+                    </div>
+                </div>        
+                <div data-aos="fade-right" data-aos-delay="100" class="container">
+                    <p class="lh-1">The link's destination is specified in the href attribute. </p>
+                    <p class="lh-1">Attributes are used to provide additional information about HTML elements.</p>
+                    <p class="lh-1">You will learn more about attributes in a later chapter.</p>
+                </div>
+                <div class="container">
+                    <h3 data-aos="fade-right" data-aos-delay="100" class="display-5">HTML Images</h3>
+                    <p data-aos="fade-right" data-aos-delay="100" class="lh-1">HTML images are defined with the &lt;img&gt; tag.</p>
+                    <p data-aos="fade-right" data-aos-delay="100" class="lh-1">The source file (src), alternative text (alt), width, and height are provided as attributes:</p>
+                </div>
+                <div class="col">
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                      <h5 data-aos="fade-right" data-aos-delay="100" >Example:</h3>
+                        <div data-aos="flip-up" data-aos-delay="100" class="p-3 bg-white rounded text-dark">
+                              <div>
+                                <p class="lh-1"> &lt;img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"&gt;</p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+    </main>
+    
+    <footer class="text-center text-lg-start mask-custom shadow-0">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-2 mx-auto mb-4">
+            <img src="./images/CM_logo.png" alt="Logo" class="img-fluid">
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>&copy; 2024 Codesmaxxing</p>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <a href="CM_PrivacyPolicy.html" class="active">Privacy Policy</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Philippines, Alaminos City, Pangasinan.</p>
+            <a href="https://www.google.com/maps/place/Alaminos,+Pangasinan/@16.1440845,119.9898251,12z/data=!3m1!4b1!4m6!3m5!1s0x3393dccf6d009e91:0xd49a89904cd7374e!8m2!3d16.1505291!4d119.9856157!16zL20vMDZqejQy?entry=ttu">See on map!</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Contact Us:</p>
+            <p>Email: codesmaxxing@gmail.com</p>
+            <p>Phone: (+63) 0969 526 3613</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    
+
+</body>
+
+</html>

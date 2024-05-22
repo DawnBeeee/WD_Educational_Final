@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>CM_Home</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-image text-white"
+style="
+  background-image: url('./images/CM_bg.png');
+">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-primary mask-custom shadow-0">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html">
+        <img src="./images/CM_logo.png" width="50" height="50" alt="">
+      </a>
+      <a class="navbar-brand fw-bold text-light" href="Home.html">Codesmaxxing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterTutorial.html">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterArticle.html">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light active" href="About.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <main>
+        <div class="container">
+            <h1 data-aos="zoom-in" data-aos-delay="100" class="display-3 text-start">Introduction to SQL</h1>
+            <div class="d-flex justify-content-between">
+                <a data-aos="fade-left" data-aos-delay="100" class="btn btn-success" href="Home.html" role="button">Home</a>
+                <div style="width: 50px;"></div>
+                <a data-aos="fade-right" data-aos-delay="100" class="btn btn-success" href="CM_SQLSyntax.html" role="button">Next</a>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3 mt-3">
+                <p class="lh-1">SQL is a standard language for accessing and manipulating databases.</p>
+            </div>
+            <div class="container mb-3">
+                <h3 data-aos="fade-right" data-aos-delay="100" class="display-5">What is SQL?</h3>
+                <ul data-aos="flip-up" data-aos-delay="100" class="list-group">
+                    <li class="list-group-item text-white ">SQL stands for Structured Query Language</li>
+                    <li class="list-group-item text-white ">SQL lets you access and manipulate databases</li>
+                    <li class="list-group-item text-white ">SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987</li>
+                </ul>
+            </div>
+            <div class="container mb-3">
+                <h3 data-aos="fade-right" data-aos-delay="100" class="display-5">What Can SQL do?</h3>
+                <ul data-aos="flip-up" data-aos-delay="100" class="list-group">
+                    <li class="list-group-item text-white ">SQL can execute queries against a database</li>
+                    <li class="list-group-item text-white ">SQL can retrieve data from a database</li>
+                    <li class="list-group-item text-white ">SQL can insert records in a database</li>
+                    <li class="list-group-item text-white ">SQL can update records in a database</li>
+                    <li class="list-group-item text-white ">SQL can delete records from a database</li>
+                    <li class="list-group-item text-white ">SQL can create new databases</li>
+                    <li class="list-group-item text-white ">SQL can create new tables in a database</li>
+                    <li class="list-group-item text-white ">SQL can create stored procedures in a database</li>
+                    <li class="list-group-item text-white ">SQL can create views in a database</li>
+                    <li class="list-group-item text-white ">SQL can set permissions on tables, procedures, and views</li>
+                </ul>
+                </div>
+                <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                    <h3 class="display-5">SQL is a Standard - BUT....</h3>
+                    <p class="lh-1">Although SQL is an ANSI/ISO standard, there are different versions of the SQL language.</p>
+                    <p class="lh-1">However, to be compliant with the ANSI standard, they all support at least the major commands (such as SELECT, UPDATE, DELETE, INSERT, WHERE) in a similar manner.</p>
+                    <p class="lh-1">Note: Most of the SQL database programs also have their own proprietary extensions in addition to the SQL standard!</p>
+                </div>
+                <div class="container mb-3">
+                    <h3 data-aos="fade-right" data-aos-delay="100" class="display-5">Using SQL in Your Web Site</h3>
+                    <p data-aos="fade-right" data-aos-delay="100" class="lh-1">To build a web site that shows data from a database, you will need:</p>          
+                    <ul data-aos="flip-up" data-aos-delay="100" class="list-group">
+                        <li class="list-group-item text-white">An RDBMS database program (i.e. MS Access, SQL Server, MySQL)</li>
+                        <li class="list-group-item text-white">To use a server-side scripting language, like PHP or ASP</li>
+                        <li class="list-group-item text-white">To use SQL to get the data you want</li>
+                        <li class="list-group-item text-white">To use HTML / CSS to style the page</li>
+                    </ul>
+                </div>
+                <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                    <h3 class="display-5">RDBMS</h3>
+                    <p class="lh-1">RDBMS stands for Relational Database Management System.</p>
+                    <p class="lh-1">RDBMS is the basis for SQL, and for all modern database systems such as MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.</p>
+                    <p class="lh-1">The data in RDBMS is stored in database objects called tables. A table is a collection of related data entries and it consists of columns and rows.</p>
+                    <p class="lh-1">Look at the "Customers" table:</p>
+                </div>
+                <div class="col">
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 rounded text-white">
+                      <h5 data-aos="fade-right" data-aos-delay="100" >Example</h3>
+                        <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                              <div>
+                                <p class="lh-1">SELECT * FROM Customers;</p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                    <p class="lh-1">Every table is broken up into smaller entities called fields. The fields in the Customers table consist of CustomerID, CustomerName, ContactName, Address, City, PostalCode and Country. A field is a column in a table that is designed to maintain specific information about every record in the table.</p>
+                    <p class="lh-1">A record, also called a row, is each individual entry that exists in a table. For example, there are 91 records in the above Customers table. A record is a horizontal entity in a table.</p>
+                    <p class="lh-1">A column is a vertical entity in a table that contains all information associated with a specific field in a table.</p>
+                </div>
+    </main>
+    
+    <footer class="text-center text-lg-start mask-custom shadow-0">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-2 mx-auto mb-4">
+            <img src="./images/CM_logo.png" alt="Logo" class="img-fluid">
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>&copy; 2024 Codesmaxxing</p>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <a href="CM_PrivacyPolicy.html" class="active">Privacy Policy</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Philippines, Alaminos City, Pangasinan.</p>
+            <a href="https://www.google.com/maps/place/Alaminos,+Pangasinan/@16.1440845,119.9898251,12z/data=!3m1!4b1!4m6!3m5!1s0x3393dccf6d009e91:0xd49a89904cd7374e!8m2!3d16.1505291!4d119.9856157!16zL20vMDZqejQy?entry=ttu">See on map!</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Contact Us:</p>
+            <p>Email: codesmaxxing@gmail.com</p>
+            <p>Phone: (+63) 0969 526 3613</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    
+
+</body>
+
+</html>

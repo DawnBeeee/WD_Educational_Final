@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>CM_Home</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-image text-white"
+style="
+  background-image: url('./images/CM_bg.png');
+">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-primary mask-custom shadow-0">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html">
+        <img src="./images/CM_logo.png" width="50" height="50" alt="">
+      </a>
+      <a class="navbar-brand fw-bold text-light" href="Home.html">Codesmaxxing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterTutorial.html">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light active" href="CM_MasterArticle.html">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="About.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <main>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-lg-8">
+              <header class="px-4 py-2">
+                <h1 data-aos="fade-up" data-aos-delay="100" class="mb-4 display-3 lh-1">BASIC turns 60: Why simplicity was this programming language's blessing and its curse</h1>
+                <h3 data-aos="fade-up" data-aos-delay="100" class="mb-4 lead">Since the 1960s, BASIC has introduced countless beginners to computer programming. Here's how the language got started, the paths it cleared for Windows and Apple, and where you can still find it today.</h3>
+                <div data-aos="fade-left" data-aos-delay="100" class="container">
+                  <div class="row text-start">
+                      <div class="col-md-2">
+                          <img class="img-fluid" src="./images/steven.webp" height="100" width="100">
+                      </div>
+                      <div class="col-md-6 text-start">
+                        <p>Written by Steven Vaughan-Nichols, Senior Contributing Editor</p>
+                        <p>May 8, 2024 at 12:44 p.m. PT</p>
+                      </div>
+                  </div>
+              </div>
+              </header>
+              <main>
+                <p data-aos="fade-right" data-aos-delay="100" class="mt-4 px-4 py-2">Long before you were picking up Python and JavaScript, in the predawn darkness of May 1, 1964, a modest but pivotal moment in computing history unfolded at Dartmouth College. Mathematicians John G. Kemeny and Thomas E. Kurtz, operating a General Electric GE-225 mainframe, executed the first program in a language of their own devising: <a href="https://www.devx.com/terms/beginners-all-purpose-symbolic-instruction-code/">Beginner's All-purpose Symbolic Instruction Code (BASIC).</a></p>
+                <img class="img-fluid px-4 py-2" data-aos="fade-in" data-aos-delay="100" src="./images/basic.webp" class="md-5 img-fluid">
+                <figcaption data-aos="fade-right" data-aos-delay="100" class="blockquote-footer px-4 py-2">BASIC is born at Dartmouth University.</figcaption>
+                <div data-aos="fade-right" data-aos-delay="100" class="container px-4 py-2">
+                <p>It wasn't the first popular language. That honor went to COBOL if you were in business or FORTRAN if you made your living in engineering. But, for many beginners from the mid-60s to the early 80s, BASIC was their introduction to computer programming. </p>
+                <p>BASIC's allure came from its simplicity. Designed as an interpreted language, it allowed programs to be written and executed line-by-line, an approach that resonated deeply with beginners. This accessibility was a beacon for a generation of users for whom computing had been a distant, somewhat arcane discipline. Before BASIC, engaging with a computer meant wrestling with cumbersome punch cards or mastering complex codes. Kemeny and Kurtz envisioned a different paradigm -- one where computers were tools for the masses, not just the domain of engineers.</p>
+                <p>As Kemeny said later, <em>"Our vision was that every student on campus should have access to a computer, and any faculty member should be able to use a computer in the classroom whenever appropriate."</em> That meant both giving them a language that any liberal arts major, as well as math majors, could use -- computer science as a major doesn't exist yet -- and a system they could work with in something like real-time rather than feeding cards into a centralized machine for slow, batch jobs. That language was BASIC and that system was the Dartmouth Time-Sharing System (DTSS).</p>
+                <p>Others, like yours truly, would enter computer science in the 70s by way of Unix, another time-sharing operating system and a far-harder language to learn, never mind master, C. In their day though, BASIC and DTSS democratized access to computing power. It allowed developers to run programs concurrently on a central machine -- a radical concept at the time. </p>
+                <p>That first version only had 14 commands. They included: PRINT, IF and THEN, and, the soon-to-be infamous GOTO. Thanks to GOTO, the famous Dutch computer scientist Edsger Dijkstra said, <em>"It is practically impossible to teach good programming to students that have had a prior exposure to BASIC: As potential programmers, they are mentally mutilated beyond hope of regeneration."</em></p>
+                <p>With GOTO, it was all too easy for would-be programmers to write what would become known as spaghetti code -- a tangled mess of source code that was almost impossible to understand or debug. Yes, BASIC was easy to write simple programs in, but it was awful for writing anything complex. </p>
+                <p>Still, the keyword was "easy." So, early developers kept using BASIC and porting it to one computer after another.</p>
+                <p>Then, as the years rolled by, another paradigm for computing power emerged: The PC. In 1975, instead of sharing computers, you could have one of your very own with all the power of a 2MHz Intel 8080 processor. Two young men, Paul Allen, and Bill Gates, proposed to the maker of the first PC, Ed Roberts' Altair 8800, that they port BASIC to his computer. He agreed, and shortly thereafter, they founded Micro-Soft. You know it better as Microsoft.</p>
+                <p>Yes, that's right. Without BASIC, you're not running Windows today. At about the same time, Steve Wozniak was working on porting BASIC to the first Apple computer, the Apple I. BASIC was essential for Apple's early growth as well. </p>
+                <p>BASIC also became a staple in home computers like the Atari 400, Commodore 64, and TRS-80. It was featured prominently in early computer magazines, where readers could find and then type in BASIC code all by themselves. Or, you could pay real money and get a cassette tape with such popular games as Lunar Lander. Then, when IBM came out with its first PC, Gates and Allen were ready to take advantage of this new platform. As IBM President of Entry Systems, Don Estridge, said, "Microsoft BASIC had hundreds of thousands of users around the world. How are you going to argue with that?"</p>
+                <p>Indeed, those first IBM PCs had what was called Cassette BASIC baked into the hardware. When you first booted up an IBM PC, if you didn't have an operating system, it would boot into BASIC from a 32 Kilobyte Read-Only Memory (ROM). BASIC would still have its fans. Long before Microsoft developers dreamed of .NET or C#, Microsoft kept producing other popular BASIC variants, such as QBasic, GW-BASIC, and Visual Basic. A few non-Microsoft BASIC versions, such as QuickBASIC, also kept chugging along. </p>
+                <p>However, other programming languages were beginning to push BASIC aside. Pascal, Java, and Python became the languages that were taught in schools. Still, BASIC isn't dead. Microsoft open-sourced GW-BASIC in 2020. Other BASIC variants are still with us as well, such as the Windows-specific Small Visual Basic; and the open-source SmallBASIC and QB Phoenix Edition. In fact, hidden inside Microsoft Office, Visual Basic for Applications (VBA) remains the Office worker's power tool set.</p>
+                <p>That said, I can't see anyone ever writing any stand-alone significant program in BASIC again. And, the very idea of someone writing a popular game in BASIC in 2024 is a joke. But, never forget that BASIC helped early users engage with computers in a fundamentally new way. The story of BASIC is not just about a programming language. It's about making technology accessible and comprehensible, transforming passive users into active creators. You may never write a line of BASIC, or you may hate the language, but we all live with its influence to this day.</p>
+
+                </div>
+                
+
+              </main>
+            </article>
+          </div>
+          <div data-aos="fade-down" data-aos-delay="100" class="col-lg-4">
+            <aside>
+              <h2>Related Articles</h2>
+              <ul class="list-unstyled">
+                <li><a href="CM_Article2.html">Ensuring AI Workload HA: SQL Server in K8s Made Reliable</a></li>
+                <li><a href="CM_Article3.html">What Is Linear Programming? Meaning, Methods, and Examples</a></li>
+                <li><a href="CM_Article4.html">How Can AI Platforms Adapt to Hybrid or Multi-Cloud Environments?</a></li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <footer class="text-center text-lg-start mask-custom shadow-0">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-2 mx-auto mb-4">
+            <img src="./images/CM_logo.png" alt="Logo" class="img-fluid">
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>&copy; 2024 Codesmaxxing</p>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <a href="CM_PrivacyPolicy.html" class="active">Privacy Policy</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Philippines, Alaminos City, Pangasinan.</p>
+            <a href="https://www.google.com/maps/place/Alaminos,+Pangasinan/@16.1440845,119.9898251,12z/data=!3m1!4b1!4m6!3m5!1s0x3393dccf6d009e91:0xd49a89904cd7374e!8m2!3d16.1505291!4d119.9856157!16zL20vMDZqejQy?entry=ttu">See on map!</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Contact Us:</p>
+            <p>Email: codesmaxxing@gmail.com</p>
+            <p>Phone: (+63) 0969 526 3613</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    
+
+</body>
+
+</html>

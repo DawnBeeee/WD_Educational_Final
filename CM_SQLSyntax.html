@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>CM_Home</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-image text-white"
+style="
+  background-image: url('./images/CM_bg.png');
+">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-primary mask-custom shadow-0">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html">
+        <img src="./images/CM_logo.png" width="50" height="50" alt="">
+      </a>
+      <a class="navbar-brand fw-bold text-light" href="Home.html">Codesmaxxing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterTutorial.html">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterArticle.html">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light active" href="About.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <main>
+        <div class="container">
+            <h1 data-aos="zoom-in" data-aos-delay="100" class="display-3 text-start">SQL Syntax</h1>
+            <div class="d-flex justify-content-between">
+                <a data-aos="fade-left" data-aos-delay="100"class="btn btn-success" href="CM_SQLIntroduction.html" role="button">Previous</a>
+                <div style="width: 50px;"></div>
+                <a data-aos="fade-right" data-aos-delay="100" class="btn btn-success" href="CM_MasterTutorial.html" role="button">Back</a>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3 mt-3">
+                <h3 class="display-5">SQL Statements</h3>
+                <p class="lh-1">Most of the actions you need to perform on a database are done with SQL statements.</p>
+                <p class="lh-1">SQL statements consists of keywords that are easy to understand.</p>
+                <p class="lh-1">The following SQL statement returns all records from a table named "Customers":</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100" >Example</h3>
+                    <p data-aos="flip-up" data-aos-delay="100" class="lh-1">Select all records from the Customers table:</p>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">SELECT * FROM Customers;</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <p class="lh-1">In this tutorial we will teach you all about the different SQL statements.</p>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <h3 class="display-5">Database Tables</h3>
+                <p class="lh-1">A database most often contains one or more tables. Each table is identified by a name (e.g. "Customers" or "Orders"), and contain records (rows) with data.</p>
+                <p class="lh-1">In this tutorial we will use the well-known Northwind sample database (included in MS Access and MS SQL Server).</p>
+                <p class="lh-1">Below is a selection from the Customers table used in the examples:</p>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <h3 class="display-5">Keep in Mind That...</h3>
+                <p class="lh-1">SQL keywords are NOT case sensitive: select is the same as SELECT</p>
+                <p class="lh-1">In this tutorial we will write all SQL keywords in upper-case.</p>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <h3 class="display-5">Semicolon after SQL Statements?</h3>
+                <p class="lh-1">Some database systems require a semicolon at the end of each SQL statement.</p>
+                <p class="lh-1">Semicolon is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server.</p>
+                <p class="lh-1">In this tutorial we will write all SQL keywords in upper-case.</p>
+            </div>
+            <div class="container mb-3">
+                <h3 data-aos="fade-right" data-aos-delay="100" class="display-5">Some of The Most Important SQL Commands</h3>
+                <ul data-aos="flip-up" data-aos-delay="100" class="list-group m-1">
+                    <li class="list-group-item text-white">SELECT - extracts data from a database</li>
+                    <li class="list-group-item text-white">UPDATE - updates data in a database</li>
+                    <li class="list-group-item text-white">DELETE - deletes data from a database</li>
+                    <li class="list-group-item text-white">INSERT INTO - inserts new data into a database</li>
+                    <li class="list-group-item text-white">CREATE DATABASE - creates a new database</li>
+                    <li class="list-group-item text-white">ALTER DATABASE - modifies a database</li>
+                    <li class="list-group-item text-white">CREATE TABLE - creates a new table</li>
+                    <li class="list-group-item text-white">ALTER TABLE - modifies a table</li>
+                    <li class="list-group-item text-white">DROP TABLE - deletes a table</li>
+                    <li class="list-group-item text-white">CREATE INDEX - creates an index (search key)</li>
+                    <li class="list-group-item text-white">DROP INDEX - deletes an index</li>
+                </ul>
+            </div>
+    </main>
+    
+    <footer class="text-center text-lg-start mask-custom shadow-0">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-2 mx-auto mb-4">
+            <img src="./images/CM_logo.png" alt="Logo" class="img-fluid">
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>&copy; 2024 Codesmaxxing</p>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <a href="CM_PrivacyPolicy.html" class="active">Privacy Policy</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Philippines, Alaminos City, Pangasinan.</p>
+            <a href="https://www.google.com/maps/place/Alaminos,+Pangasinan/@16.1440845,119.9898251,12z/data=!3m1!4b1!4m6!3m5!1s0x3393dccf6d009e91:0xd49a89904cd7374e!8m2!3d16.1505291!4d119.9856157!16zL20vMDZqejQy?entry=ttu">See on map!</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Contact Us:</p>
+            <p>Email: codesmaxxing@gmail.com</p>
+            <p>Phone: (+63) 0969 526 3613</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    
+
+</body>
+
+</html>

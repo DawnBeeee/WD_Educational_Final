@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>CM_Home</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-image text-white"
+style="
+  background-image: url('./images/CM_bg.png');
+">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-primary mask-custom shadow-0">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html">
+        <img src="./images/CM_logo.png" width="50" height="50" alt="">
+      </a>
+      <a class="navbar-brand fw-bold text-light" href="Home.html">Codesmaxxing</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterTutorial.html">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="CM_MasterArticle.html">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light active" href="About.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <main class="px-4 py-2">
+        <div class="container">
+            <h1 data-aos="zoom-in" data-aos-delay="100" class="display-3 text-start">JavaScript Syntax</h1>
+            <div class="d-flex justify-content-between">
+                <a data-aos="fade-left" data-aos-delay="100" class="btn btn-success" href="CM_JavaScriptIntroduction.html" role="button">Previous</a>
+                <div style="width: 50px;"></div>
+                <a data-aos="fade-right" data-aos-delay="100" class="btn btn-success" href="CM_MasterTutorial.html" role="button">Back</a>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mt-3 mb-3">
+                <p class="lh-1">JavaScript syntax is the set of rules, how JavaScript programs are constructed:</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100">Example</h3>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">var x;</p>
+                            <p class="lh-1">let y;</p>
+                            <p class="lh-1">x = 5;</p>
+                            <p class="lh-1">y = 6;</p>
+                            <p class="lh-1">let z = x + y;</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-3">
+                <h3 data-aos="fade-right" data-aos-delay="100" class="display-5">JavaScript Values</h3>
+                <p data-aos="fade-right" data-aos-delay="100" class="lh-1">The JavaScript syntax defines two types of values:</p>
+                <ul data-aos="flip-up" data-aos-delay="100" class="list-group">
+                    <li class="list-group-item text-white">Fixed values</li>
+                    <li class="list-group-item text-white">Variable values</li>
+                </ul>
+                <p data-aos="fade-right" data-aos-delay="100" class="lh-1">Fixed values are called Literals.</p>
+                <p data-aos="fade-right" data-aos-delay="100" class="lh-1">Variable values are called Variables.</p>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <h3 class="display-5">JavaScript Literals</h3>
+                <p class="lh-1">The two most important syntax rules for fixed values are:</p>
+                <p class="lh-1"><strong>1. Numbers</strong> are written with or without decimals:</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100">Example</h3>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">10.50</p>
+                            <p class="lh-1">1001</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <p class="lh-1"><strong>1. Strings </strong>are text, written within double or single quotes:</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100">Example</h3>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">"John Doe"</p>
+                            <p class="lh-1">'John Doe'</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <h3 class="display-5">JavaScript Variables</h3>
+                <p class="lh-1">In a programming language, variables are used to store data values.</p>
+                <p class="lh-1">JavaScript uses the keywords var, let and const to declare variables.</p>
+                <p class="lh-1">An equal sign is used to assign values to variables.</p>
+                <p class="lh-1">In this example, x is defined as a variable. Then, x is assigned (given) the value 6:</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100">Example</h3>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">let x;</p>
+                            <p class="lh-1">x = 6;</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <h3 class="display-5">JavaScript Operators</h3>
+                <p class="lh-1">JavaScript uses arithmetic operators ( + - * / ) to compute values:</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100"class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100">Example</h3>
+                    <div data-aos="flip-up" data-aos-delay="100"class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">(5 + 6) * 10</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <p class="lh-1">JavaScript uses an assignment operator ( = ) to assign values to variables:</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100">Example</h3>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">let x, y;</p>
+                            <p class="lh-1">x = 5;</p>
+                            <p class="lh-1">y = 6;</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <h3 class="display-5">JavaScript Expressions</h3>
+                <p class="lh-1">An expression is a combination of values, variables, and operators, which computes to a value.</p>
+                <p class="lh-1">The computation is called an evaluation.</p>
+                <p class="lh-1">For example, 5 * 10 evaluates to 50:</p>
+            </div>
+            <div class="col ">
+                <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100">Example</h3>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">5 * 10</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <p class="lh-1">Expressions can also contain variable values:</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100">Example</h3>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">x * 10</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <p class="lh-1">The values can be of various types, such as numbers and strings.</p>
+                <p class="lh-1">For example, "John" + " " + "Doe", evaluates to "John Doe":</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100">Example</h3>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">"John" + " " + "Doe"</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <h3 class="display-5">JavaScript Keywords</h3>
+                <p class="lh-1">JavaScript keywords are used to identify actions to be performed.</p>
+                <p class="lh-1">The let keyword tells the browser to create variables:</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100">Example</h3>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">let x, y;</p>
+                            <p class="lh-1">x = 5 + 6;</p>
+                            <p class="lh-1">y = x * 10;</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="100" class="container mb-3">
+                <p class="lh-1">The var keyword also tells the browser to create variables:</p>
+            </div>
+            <div class="col">
+                <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 card rounded text-white">
+                  <h5 data-aos="fade-right" data-aos-delay="100">Example</h3>
+                    <div data-aos="flip-up" data-aos-delay="100" class=" p-3 mb-3 bg-white rounded text-dark">
+                          <div>
+                            <p class="lh-1">var x, y;</p>
+                            <p class="lh-1">x = 5 + 6;</p>
+                            <p class="lh-1">y = x * 10;</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    
+    <footer class="text-center text-lg-start mask-custom shadow-0">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-2 mx-auto mb-4">
+            <img src="./images/CM_logo.png" alt="Logo" class="img-fluid">
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>&copy; 2024 Codesmaxxing</p>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <a href="CM_PrivacyPolicy.html" class="active">Privacy Policy</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Philippines, Alaminos City, Pangasinan.</p>
+            <a href="https://www.google.com/maps/place/Alaminos,+Pangasinan/@16.1440845,119.9898251,12z/data=!3m1!4b1!4m6!3m5!1s0x3393dccf6d009e91:0xd49a89904cd7374e!8m2!3d16.1505291!4d119.9856157!16zL20vMDZqejQy?entry=ttu">See on map!</a>
+          </div>
+          <div class="col-lg-2 mx-auto mb-4">
+            <p>Contact Us:</p>
+            <p>Email: codesmaxxing@gmail.com</p>
+            <p>Phone: (+63) 0969 526 3613</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    
+
+</body>
+
+</html>
